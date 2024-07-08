@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+    <head>
+        <title>Assignment 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quiz.css" type="text/css">
+    </head>
+    
+    <body>
+	
+        <div class="header">
+            <h1>Quiz Time!</h1>
+        </div>
+        <div class="navbar">
+            <a href="assign3.html">Home</a>
+            
+        </div>
+        <div class="container">
+            
+            <div class="main"> 
+                
+                    <div class="progress">0%</div>
+                  
+                <section>
+                    
+                        <fieldset>
+                         <legend>Question 1: How much money do I have?</legend>
+                             
+                                <button onclick="option1()"> $1000</button><br><br> <!-- all onclicks will be used as function names to be given effects--> 
+                                <button onclick="option2()"> $2000</button><br><br>
+                                <button onclick="option3()"> None of the above</button><br><br>
+                         
+                         <legend>Question 2: Whats my name?</legend> 
+                            
+                                <button onclick="option4()"> Calvin</button><br><br>
+                                <button onclick="option5()"> Mike</button> <br><br>
+                           
+                          <legend>Question 3: What language do I speak?</legend> 
+                            
+                                <button onclick="option6()"> English </button> <br><br>
+                                <button onclick="option7()"> French </button> <br><br>
+                            
+                           
+                          <legend>Question 4: Favorite Colour To Wear?</legend> 
+                           
+                                <button onclick="option8()"> DarkBlue</button><br><br>
+                                <button onclick="option9()"> Yellow</button><br><br>
+                            
+                           
+                          <legend>Question 5: Which Resturants do I like</legend> 
+                            
+                                <button onclick="option10()"> Chick fil a</button><br><br>
+                                <button onclick="option11()"> Wendys</button><br><br>
+                                <button onclick="option12()"> All of the above</button><br><br>
+                                  
+                                <button onclick="submit()">Submit</button> 
+                        
+                        </fieldset>
+                    
+                    </section>
+            </div>
+    </div>
+        <div class="footer">
+            <h6></h6>
+        </div>
+        <script>
+
+         
+            function option1() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+            function option2() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+            function option3() {alert("correct");}// creates a popup  to show that this is right
+
+            function option4() {alert("correct");}// creates a popup  to show that this is right
+            function option5() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+
+            function option6() {alert("correct");}// creates a popup  to show that this is right
+            function option7() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+
+            function option8() {alert("correct");}// creates a popup  to show that this is right
+            function option9() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+
+            function option10() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+            function option11() {alert("incorrect");}// creates a popup  to show that this answer is incorrect
+            function option12() {alert("correct");}// creates a popup  to show that this is right
+
+            function submit() { // creates a popup  to show all the right answers after pressing submit
+                alert("Q1 Answer: None of the above " + "Q2 Answer: Calvin " +
+                      "Q3 Answer: English " + "Q4 Answer: Dark blue " + "Q5 Answer: All above"); } 
+        </script>
+    </body> 
+
+</html>
